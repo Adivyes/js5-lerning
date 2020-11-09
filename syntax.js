@@ -347,21 +347,153 @@
 //             return isPasswordStrong;
 //         }
 //         document.writeln("IT IS A STRONG PASSWORD : " + checkPassword(password))
+// --------------------------------------------------------------------------------------
+// var password = "ps2581231238"
+// function passwordcheck(pass){
+//         var passcheck = "weak"
+//         if(pass.length>=7){
+//                 if(pass[0]/1 != pass[0] && pass[1]/1 != pass[1]){
+//                         for(i=2; i<pass.length; i++)
+//                         if(1<=pass[i] && pass[i]<=8){
+//                                 passcheck = "strong"
+//                         }
+//                         else{
+//                                 return "weak";
+//                         }
+//                 }
+//         }
+//         return passcheck;
+// }
+// document.writeln("this is a " + passwordcheck (password) + " password")
+// // -----------------------------------------------------------------------------------------------
 
-var password = "ps259823"
-function passwordcheck(pass){
-        var passcheck = false
-        if(pass.length>=7){
-                if(pass[0]/1 != pass[0] && pass[1]/1 != pass[1]){
-                        for(i=2; i)
-                        if(1<pass[i] && pass[i]>8){
-                                passcheck = true
-                        }
-                }
-        }
-        return passcheck;
-}
-document.writeln(passwordcheck(password))
+// var fastcars = [
+//         {name:'mercedes',color:'green',speed:200},
+//         {name:'toyota', color:'silver',speed:360},
+//         {name:'peugeot', color:'yellow',speed:480},
+//         {name:'bmw', color:'white',speed:360},
+//         {name:'volvo', color:'red', speed:300},
+//         {name:'bmw', color:'black', speed:700},
+//         {name:'wv', color:'blue', speed:950}
+// ]
+
+// function fasTesCar(winner){
+//         var max = 0
+//         var index = 0
+//         for(var i=0; i<winner.length; i++){
+//                 if(winner[i].speed>max){
+//                         max = winner[i].speed
+//                         index = i 
+//                 }
+//         }
+//         var fastes = winner[index].color + " " + winner[index].name + " is the winner"
+//         return fastes;
+// }
+
+// document.writeln(fasTesCar(fastcars))
+// ------------------------------------------------------------------------------------------
+
+// var fastcars = [
+//         {name:'mercedes',color:'green',speed:200},
+//         {name:'toyota', color:'silver',speed:360},
+//         {name:'peugeot', color:'yellow',speed:480},
+//         {name:'bmw', color:'white',speed:360},
+//         {name:'volvo', color:'red', speed:300},
+//         {name:'bmw', color:'black', speed:100},
+//         {name:'wv', color:'blue', speed:750}
+// ]
+
+// function fastesCarCompetition(winner){
+//         var max = 0 
+//         var index = 0
+
+//         for (var i=0; i<winner.length; i++){ //למה ה"וואר" חייב להופיע בתחילת הלולאה ?י
+//                 if(winner[i].speed>max){
+//                         max = winner[i].speed
+//                         index = i
+//                 }
+//         }
+//         var fast = winner[index].color + " " + winner[index].name + " is the fastes car"
+//         return fast;
+// }
+// document.writeln(fastesCarCompetition(fastcars))
+// -------------------------------------------------------
+
+// var fastcars = [
+//         {name:'mercedes',color:'green',speed:200},
+//         {name:'toyota', color:'silver',speed:360},
+//         {name:'peugeot', color:'yellow',speed:480},
+//         {name:'bmw', color:'white',speed:360},
+//         {name:'volvo', color:'red', speed:300},
+//         {name:'bmw', color:'black', speed:100},
+//         {name:'wv', color:'blue', speed:750}
+// ]
+
+// function fastesCar(winner){
+//         var max = 0
+//         var index = 0
+//         for(var i=0; i<winner.length; i++){
+//                 if(winner[i].speed > max){
+//                         max = winner[i].speed
+//                         index = i
+//                        }
+//         }
+        
+//         var fastes = winner[index].color + " " + winner[index].name + " is the fastes car!"
+//         return fastes; 
+        
+// }
+// document.writeln(fastesCar(fastcars))
+// ---------------------------------------------------------
 
 
+// const email = {
+//         bob: 'bob@gmail.com',
+//         jane: 'jane@gmail.com',
+//         bill: 'bill@gmail.com'
+// }
+
+// const details = {
+//         name: 'adiv shenkor',
+//         alias :'kingpin',
+//         appeard : 1990,
+//         frinds : ['bigman', 'smallman'],
+//         vilan : { mainVilan:'bob'}
+// }
+
+// email.adiv = 'adiv@gmail.com';
+// let name = 'or';
+// email[name] = `$[name]@hotmail.com`;
+// console.log (email)
+
+// const person = {
+//        age:10 ,
+//        id: 23,
+//        name: '',
+//        address: '',
+//        color:'',
+//        street:'',
+//        game:'',
+//        dog:'',
+//        tvshow:'',
+//        student:'',
+// }
+
+// person.age = 30
+// person.name = 'adiv'
+// person.id = 45
+// person.address = 'klahim'
+// person.color = 'black'
+// person.street = 'first street'
+// person.game = 'pubg'
+// person.dog = 'kora'
+// person.tvshow = 'homland'
+// person.student = 'codein'
+
+// for(var key of Object.keys(person)) {
+//         var value = person[key];
+//         document.writeln(value)
+// }
+// console.log (person)
+// ---------------------------------------------------------
 
