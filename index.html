@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
+<style>
+    .square{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+    }
+</style>
 
+<body onload="startGame();">
+    <h1>hello world</h1>
+    <h3>hello agine</h3>
+    
+    <div id="message">messages will go here</div>
 
-<body>
-    <div class="overlay"></div>
-    <div class="semafor">Human <span id="human">0</span> - <span id="computer">0</span> Computer</div>
-    <div class="gamespace">
-    <div class="panel" id="panel">
+    <table border="1" >
+        <tr>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+        </tr>
 
-        <button onclick="nextMove(this)"></button>
-        <button onclick="nextMove(this)"></button>
-        <button onclick="nextMove(this)"></button>
+        <tr>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+        </tr>
 
-        <button onclick="nextMove(this)"></button>
-        <button onclick="nextMove(this)"></button>
-        <button onclick="nextMove(this)"></button>
-
-        <button onclick="nextMove(this)"></button>
-        <button onclick="nextMove(this)"></button>
-        <button onclick="nextMove(this)"></button>
-
-    </div>
-
+        <tr>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+        </tr>
+    </table>
     <script src="syntax.js"></script>
 </body>
 </html>

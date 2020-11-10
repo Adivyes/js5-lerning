@@ -9,92 +9,92 @@
 // const z = 30;
 
 // if (y.length > 3) {
-//     consol.log("it's a long string");
-// }else {
-//     console.log("not that long")
+//         consol.log("it's a long string");
+// } else {
+//         console.log("not that long")
 // }
 
-// for (let i=0; i < 10; i++) {
-//     console.log(i);
+// for (let i = 0; i < 10; i++) {
+//         console.log(i);
 // }
 
 
 // let num = 9123;
 // while (num > 0) {
-//     console.log(num);
-//     num = Math.floor(num / 10);
+//         console.log(num);
+//         num = Math.floor(num / 10);
 // }
 
-// var x=56
-//     x = prompt("enter any number from 1 to 100");
+// var x = 56
+// x = prompt("enter any number from 1 to 100");
 
-//     alert 
+// alert
 // -------------------------------------------------------------------------
-// let age = parseFloat(prompt("Please enter your age"));
-			
-			
-			
-// 			if ( age >= 18 || age < 60 ) {
-// 				alert("you can enter");
-// 			} 
-// 			else {
-// 				alert("you cannot enter");
-//             }
+//         let age = parseFloat(prompt("Please enter your age"));
+
+
+
+// if (age >= 18 || age < 60) {
+//         alert("you can enter");
+// }
+// else {
+//         alert("you cannot enter");
+// }
 // --------------------------------------------------------------------------
 
-        // let hour = 10;
-        //     if (hour >= 6 && hour < 12){
-        //             console.log('good morning');
-        //     }
-        //     else if (hour >= 12 && hour < 18){
-        //             console.log('good afternoon');
-        //     }
-        //     else if(hour >= 18 && hour < 24){
-        //         console.log('good night');
+//         let hour = 10;
+// if (hour >= 6 && hour < 12) {
+//         console.log('good morning');
+// }
+// else if (hour >= 12 && hour < 18) {
+//         console.log('good afternoon');
+// }
+// else if (hour >= 18 && hour < 24) {
+//         console.log('good night');
 
-        //     }
-        //     else
-        //         console.log('Invalid time! This is a 24 hours clock.');
-// 
+// }
+// else
+//         console.log('Invalid time! This is a 24 hours clock.');
+
 // -----------------------------------------------
 
-        // let name= prompt("hello mamadosako");
-        // var length=name.length; 
-      
+//         let name = prompt("hello mamadosako");
+// var length = name.length;
 
-        //     for (let i=0; i<length; i++){
 
-        //     }
-        
-        
-            
-            
-            // console.log (name.charCodeAt(i) )//
+// for (let i = 0; i < length; i++) {
 
-     
+// }
 
-        
-// ----------------------------------------------------------                                                                                                  
-//         function whatsmymmutherfuckingname(){
-//             document.writeln("HELLO R-U-L-E");
-//         }      
-//         whatsmymmutherfuckingname();
-// // ------------------------------------------------
-//         function sum(numone, numtwo){
-//             document.writeln(numone + numtwo);
+
+
+
+// console.log(name.charCodeAt(i))//
+
+
+
+
+// ----------------------------------------------------------
+//         function whatsmymmutherfuckingname() {
+//                 document.writeln("HELLO R-U-L-E");
 //         }
-//         sum(5,5);
+// whatsmymmutherfuckingname();
+// // ------------------------------------------------
+// function sum(numone, numtwo) {
+//         document.writeln(numone + numtwo);
+// }
+// sum(5, 5);
 // // ------------------------------------------------------        
 
-// function multi(numone, numtwo){
-//     document.writeln(numone * numtwo);
+// function multi(numone, numtwo) {
+//         document.writeln(numone * numtwo);
 // }
-// multi(5,5);
+// multi(5, 5);
 // // -------------------------------------------------------
 
-// function divide(numOne, numTwo){
-//     document.writeln(numOne/numTwo)
-//     return numOne/numTwo;
+// function divide(numOne, numTwo) {
+//         document.writeln(numOne / numTwo)
+//         return numOne / numTwo;
 // }
 // var numberOne = 10;
 // var numberTwo = 10;
@@ -102,126 +102,126 @@
 // var divide = divide(numberOne, numberTwo);//
 // ---------------------------------------------------------
 
-// function nicename(param){
-//     if (param == 9){
-//         document.write("Adiv");
-//     } else {
-//         alert("number not 9");
-//     }
-// }
+//         function nicename(param) {
+//                 if (param == 9) {
+//                         document.write("Adiv");
+//                 } else {
+//                         alert("number not 9");
+//                 }
+//         }
 // nicename(9);
 // -------------------------------------------------------------
 
-// function bigman(num1, num2){
-//     // document.writeln(num1 + num2)
-//     return num1 + num2;
- 
-// }
-// let adiv = bigman (10,10);
+//         function bigman(num1, num2) {
+//                 // document.writeln(num1 + num2)
+//                 return num1 + num2;
+
+//         }
+// let adiv = bigman(10, 10);
 // ---------------------------------------------------------------
 
-// function bonbon(bin1, bin2){
-    
-//         let sum = (bin1 + bin2);
-//         let mul = (bin1 * bin2);
-//         document.writeln("result" + mul)
-        
-//     return (sum);
-// }
-// var bing1= 10
-// var bing2= 10
+//         function bonbon(bin1, bin2) {
+
+//                 let sum = (bin1 + bin2);
+//                 let mul = (bin1 * bin2);
+//                 document.writeln("result" + mul)
+
+//                 return (sum);
+//         }
+// var bing1 = 10
+// var bing2 = 10
 // var bingo = bonbon(bing1, bing2);
 // // console.log(bingo);
 // // --------------------------------------------------------------------
 
-// function boombal(lin1, lin2){
-//     var divid = (lin1 / lin2);
-//     var min = (lin1 - lin2);
-//     document.write ("boomshakalak" + divid)
-//     return (min);
+// function boombal(lin1, lin2) {
+//         var divid = (lin1 / lin2);
+//         var min = (lin1 - lin2);
+//         document.write("boomshakalak" + divid)
+//         return (min);
 // }
 // var bmin = boombal(100, 100);
 // console.log(bmin);
 // --------------------------------------------------------------
 // var stuff = ["red", 12, 54, "onepice", false]
-// stuff 
-// stuff[2]= 16;
+// stuff
+// stuff[2] = 16;
 // document.writeln(stuff);
-// -----------------------------------------------------------------YACOVHOMEWORK
+// ----------------------------------------------------------------- YACOVHOMEWORK
 
 // 6. פונקציה שמקבלת מערך ומחזירה מערך של מספרים עם תוספת של שלוש
 
-// 
-
-// function arryfunction(array){
 
 
-//     for (let i=0; i< array.length; i++){
-//         array[i] += 3;
-//     }
-   
-//     return array;
+// function arryfunction(array) {
+
+
+//         for (let i = 0; i < array.length; i++) {
+//                 array[i] += 3;
+//         }
+
+//         return array;
 // }
 // var arr = [1, 2, 3, 4, 5];
 // document.writeln(arryfunction(arr));
 
 // ------------------------------------------------------YACOVHOMEWORK
 
-// function arryfunction(){
-//     let array = [];
-//     var arr = [1, 2, 3, 4, 5];
-    
-//     for (let i=0; i< arr.length; i++){
-//         if(arr[i]%2 !=0){
-//             console.log(arr[i]);
-//             document.writeln(arr[i]);
+// function arryfunction() {
+//         let array = [];
+//         var arr = [1, 2, 3, 4, 5];
+
+//         for (let i = 0; i < arr.length; i++) {
+//                 if (arr[i] % 2 != 0) {
+//                         console.log(arr[i]);
+//                         document.writeln(arr[i]);
+//                 }
+
 //         }
-      
-//     }
-//     }
+// }
 
 // arryfunction();
 
 
 // ------------------------------------------------ZIV HOMEWORK
-// var text = prompt ("enter text")
+// var text = prompt("enter text")
 
-// for (var i=0; i<text.length; i++){
+// for (var i = 0; i < text.length; i++) {
 
-//     var name = text.charCodeAt(i);
+//         var name = text.charCodeAt(i);
 
-//     if(name >= 65 && name <=90){
-//     var nice = text.toLowerCase();
-//         console.log (nice);
-//     }
-//     else if (name >= 97 && name <=122){
-//         var nice2 = text.toUpperCase();
-//         console.log (nice2);
-//     }
-    
+//         if (name >= 65 && name <= 90) {
+//                 var nice = text.toLowerCase();
+//                 console.log(nice);
+//         }
+//         else if (name >= 97 && name <= 122) {
+//                 var nice2 = text.toUpperCase();
+//                 console.log(nice2);
+//         }
+
 // }
 // -----------------------------------------------------------
 
 
-// function arryfunction(array){
-    
-//     for (let i=0; i< array.length; i++){
-//         if(array[i]%2 !=0){
-//          array[i] +=6;
-            
-//         }
-//         if(array[0] == "hello"){
-//                 document.writeln(array);
+//         function arryfunction(array) {
 
+//                 for (let i = 0; i < array.length; i++) {
+//                         if (array[i] % 2 != 0) {
+//                                 array[i] += 6;
+
+//                         }
+//                         if (array[0] == "hello") {
+//                                 document.writeln(array);
+
+//                         }
+//                         return array;
+//                 }
 //         }
-//       return array;    
-//     }
-//     }
 // var arr = ["hello", 1, 2, 3, 4, 5];
 // document.writeln(arryfunction(arr));
 // ---------------------------------------------------------
 
-// let myString = 'Hello World';
+//         let myString = 'Hello World';
 
 // console.log(myString.indexOf('o')); // => 4
 // console.log(myString.indexOf('k')); // => -1
@@ -232,91 +232,91 @@
 
 
 // --------------------------------------------------------
-// פונקציה שמקבלת 4 מספרים 
+//         פונקציה שמקבלת 4 מספרים
 
 
-//   פונקציה שמקבלת 4 מספרים
-//     ומחזירה מערך
-//    במידה ואחד המשתנים הוא לא מספר
+// פונקציה שמקבלת 4 מספרים
+// ומחזירה מערך
+// במידה ואחד המשתנים הוא לא מספר
 
-//   ומדפיסה הודעה למשתמש
+// ומדפיסה הודעה למשתמש
 
-// function adiv(num1, num2, num3, num4){
+// function adiv(num1, num2, num3, num4) {
 //         var numbers = [num1, num2, num3, num4]
-//         for(i=0; i<numbers.length; i++){
-//               if(numbers[i]/1 == numbers[i]){
-//                       document.writeln(numbers[i]  )
-//               } 
-//               else document.writeln(numbers[i] + " -it's not a number"); 
+//         for (i = 0; i < numbers.length; i++) {
+//                 if (numbers[i] / 1 == numbers[i]) {
+//                         document.writeln(numbers[i])
+//                 }
+//                 else document.writeln(numbers[i] + " -it's not a number");
 //         }
 
 //         return numbers;
 // }
 
-// var num = adiv ("nice", 2, 3, "hello")
+// var num = adiv("nice", 2, 3, "hello")
 // document.writeln(num);
 // ------------------------------------------------------------------
 
-// כתבו פונקציה בשם random שמקבלת שני מספרים ומחזירה מספר אקראי ביניהם, כלומר שיהיה גדול או שווה לראשון וקטן מהשני.
+//         כתבו פונקציה בשם random שמקבלת שני מספרים ומחזירה מספר אקראי ביניהם, כלומר שיהיה גדול או שווה לראשון וקטן מהשני.
 
-// לאחר מכן כתבו תוכנית שמגרילה 3 מספרים בין 1 ל-100 ומדפיסה את הגדול מביניהם.
+// לאחר מכן כתבו תוכנית שמגרילה 3 מספרים בין 1 ל - 100 ומדפיסה את הגדול מביניהם.
 
-// function random(billi1){
-//         var billran = Math.floor (Math.random() * 100) + 1;
-//         for(i=0; i<billi1.length; i++){
-//                 if(billran == billi1[i]){
-                        
+// function random(billi1) {
+//         var billran = Math.floor(Math.random() * 100) + 1;
+//         for (i = 0; i < billi1.length; i++) {
+//                 if (billran == billi1[i]) {
+
 //                 }
 //         }
-// if(billiran >= billi1 && billiran < billi2){
-//         document.writeln(billiran)
-// }
-// else billiran = 
+//         if (billiran >= billi1 && billiran < billi2) {
+//                 document.writeln(billiran)
+//         }
+//         else billiran = 
 
 
 
 // return billiran
 // }
-// var bingo = random (100, 200)
+// var bingo = random(100, 200)
 
-//  
 
-// 
+
+
 // let age = parseFloat(prompt("Please enter a number 1-100"));
-// if (billran == age){
-//  document.writeln(billran + "winner") 
+// if (billran == age) {
+//         document.writeln(billran + "winner")
 // }
 // else document.writeln(billran + " -mybe next time")
 
 // ----------------------------------------------------------------------
 
 // var ixigool = [
-//         ['o','x','x'],
-//         ['x','o','x'],
-//         ['x','x','o']
+//         ['o', 'x', 'x'],
+//         ['x', 'o', 'x'],
+//         ['x', 'x', 'o']
 // ]
 // ---------------------------------------------------------------------------
 
 
 
 // var fastcars = [
-//         {name:'mercedes',color:'green',speed:200},
-//         {name:'toyota', color:'silver',speed:560},
-//         {name:'peugeot', color:'yellow',speed:480},
-//         {name:'bmw', color:'white',speed:360},
-//         {name:'volvo', color:'red', speed:300},
-//         {name:'bmw', color:'black', speed:200},
-//         {name:'wv', color:'blue', speed:250}
+//         { name: 'mercedes', color: 'green', speed: 200 },
+//         { name: 'toyota', color: 'silver', speed: 560 },
+//         { name: 'peugeot', color: 'yellow', speed: 480 },
+//         { name: 'bmw', color: 'white', speed: 360 },
+//         { name: 'volvo', color: 'red', speed: 300 },
+//         { name: 'bmw', color: 'black', speed: 200 },
+//         { name: 'wv', color: 'blue', speed: 250 }
 // ]
 
-// function fastesCar(winner){
+// function fastesCar(winner) {
 //         var max = 0
 //         var index = 0
 
-//         for(var i=0; i<winner.length; i++){
-//                 if(winner[i].speed > max){
+//         for (var i = 0; i < winner.length; i++) {
+//                 if (winner[i].speed > max) {
 //                         index = i
-//                         max = winner[i].speed 
+//                         max = winner[i].speed
 //                 }
 //         }
 //         var theMostFastCar = winner[index].color + ' ' + winner[index].name + ' is the fastes car'
@@ -330,60 +330,60 @@
 
 
 // var password = "Sa2165845446";
-//         function checkPassword(passwordToCheck) {
-//             var isPasswordStrong = false;
-//             if(passwordToCheck.length>=7){
-//                 if(passwordToCheck[0]/1 != passwordToCheck[0] && passwordToCheck[1]/1 != passwordToCheck[1]){
-//                     for(i=2; i< passwordToCheck.length;i++){
-//                         if(1<=passwordToCheck[i] && passwordToCheck[i]<=8){
-//                             isPasswordStrong = true;
+// function checkPassword(passwordToCheck) {
+//         var isPasswordStrong = false;
+//         if (passwordToCheck.length >= 7) {
+//                 if (passwordToCheck[0] / 1 != passwordToCheck[0] && passwordToCheck[1] / 1 != passwordToCheck[1]) {
+//                         for (i = 2; i < passwordToCheck.length; i++) {
+//                                 if (1 <= passwordToCheck[i] && passwordToCheck[i] <= 8) {
+//                                         isPasswordStrong = true;
+//                                 }
+//                                 else {
+//                                         return false;
+//                                 }
 //                         }
-//                         else{
-//                             return false;
-//                         }
-//                     }
 //                 }
-//             }
-//             return isPasswordStrong;
 //         }
-//         document.writeln("IT IS A STRONG PASSWORD : " + checkPassword(password))
+//         return isPasswordStrong;
+// }
+// document.writeln("IT IS A STRONG PASSWORD : " + checkPassword(password))
 // --------------------------------------------------------------------------------------
 // var password = "ps2581231238"
-// function passwordcheck(pass){
+// function passwordcheck(pass) {
 //         var passcheck = "weak"
-//         if(pass.length>=7){
-//                 if(pass[0]/1 != pass[0] && pass[1]/1 != pass[1]){
-//                         for(i=2; i<pass.length; i++)
-//                         if(1<=pass[i] && pass[i]<=8){
-//                                 passcheck = "strong"
-//                         }
-//                         else{
-//                                 return "weak";
-//                         }
+//         if (pass.length >= 7) {
+//                 if (pass[0] / 1 != pass[0] && pass[1] / 1 != pass[1]) {
+//                         for (i = 2; i < pass.length; i++)
+//                                 if (1 <= pass[i] && pass[i] <= 8) {
+//                                         passcheck = "strong"
+//                                 }
+//                                 else {
+//                                         return "weak";
+//                                 }
 //                 }
 //         }
 //         return passcheck;
 // }
-// document.writeln("this is a " + passwordcheck (password) + " password")
+// document.writeln("this is a " + passwordcheck(password) + " password")
 // // -----------------------------------------------------------------------------------------------
 
 // var fastcars = [
-//         {name:'mercedes',color:'green',speed:200},
-//         {name:'toyota', color:'silver',speed:360},
-//         {name:'peugeot', color:'yellow',speed:480},
-//         {name:'bmw', color:'white',speed:360},
-//         {name:'volvo', color:'red', speed:300},
-//         {name:'bmw', color:'black', speed:700},
-//         {name:'wv', color:'blue', speed:950}
+//         { name: 'mercedes', color: 'green', speed: 200 },
+//         { name: 'toyota', color: 'silver', speed: 360 },
+//         { name: 'peugeot', color: 'yellow', speed: 480 },
+//         { name: 'bmw', color: 'white', speed: 360 },
+//         { name: 'volvo', color: 'red', speed: 300 },
+//         { name: 'bmw', color: 'black', speed: 700 },
+//         { name: 'wv', color: 'blue', speed: 950 }
 // ]
 
-// function fasTesCar(winner){
+// function fasTesCar(winner) {
 //         var max = 0
 //         var index = 0
-//         for(var i=0; i<winner.length; i++){
-//                 if(winner[i].speed>max){
+//         for (var i = 0; i < winner.length; i++) {
+//                 if (winner[i].speed > max) {
 //                         max = winner[i].speed
-//                         index = i 
+//                         index = i
 //                 }
 //         }
 //         var fastes = winner[index].color + " " + winner[index].name + " is the winner"
@@ -394,21 +394,21 @@
 // ------------------------------------------------------------------------------------------
 
 // var fastcars = [
-//         {name:'mercedes',color:'green',speed:200},
-//         {name:'toyota', color:'silver',speed:360},
-//         {name:'peugeot', color:'yellow',speed:480},
-//         {name:'bmw', color:'white',speed:360},
-//         {name:'volvo', color:'red', speed:300},
-//         {name:'bmw', color:'black', speed:100},
-//         {name:'wv', color:'blue', speed:750}
+//         { name: 'mercedes', color: 'green', speed: 200 },
+//         { name: 'toyota', color: 'silver', speed: 360 },
+//         { name: 'peugeot', color: 'yellow', speed: 480 },
+//         { name: 'bmw', color: 'white', speed: 360 },
+//         { name: 'volvo', color: 'red', speed: 300 },
+//         { name: 'bmw', color: 'black', speed: 100 },
+//         { name: 'wv', color: 'blue', speed: 750 }
 // ]
 
-// function fastesCarCompetition(winner){
-//         var max = 0 
+// function fastesCarCompetition(winner) {
+//         var max = 0
 //         var index = 0
 
-//         for (var i=0; i<winner.length; i++){ //למה ה"וואר" חייב להופיע בתחילת הלולאה ?י
-//                 if(winner[i].speed>max){
+//         for (var i = 0; i < winner.length; i++) { //למה ה"וואר" חייב להופיע בתחילת הלולאה ?י
+//                 if (winner[i].speed > max) {
 //                         max = winner[i].speed
 //                         index = i
 //                 }
@@ -420,28 +420,28 @@
 // -------------------------------------------------------
 
 // var fastcars = [
-//         {name:'mercedes',color:'green',speed:200},
-//         {name:'toyota', color:'silver',speed:360},
-//         {name:'peugeot', color:'yellow',speed:480},
-//         {name:'bmw', color:'white',speed:360},
-//         {name:'volvo', color:'red', speed:300},
-//         {name:'bmw', color:'black', speed:100},
-//         {name:'wv', color:'blue', speed:750}
+//         { name: 'mercedes', color: 'green', speed: 200 },
+//         { name: 'toyota', color: 'silver', speed: 360 },
+//         { name: 'peugeot', color: 'yellow', speed: 480 },
+//         { name: 'bmw', color: 'white', speed: 360 },
+//         { name: 'volvo', color: 'red', speed: 300 },
+//         { name: 'bmw', color: 'black', speed: 100 },
+//         { name: 'wv', color: 'blue', speed: 750 }
 // ]
 
-// function fastesCar(winner){
+// function fastesCar(winner) {
 //         var max = 0
 //         var index = 0
-//         for(var i=0; i<winner.length; i++){
-//                 if(winner[i].speed > max){
+//         for (var i = 0; i < winner.length; i++) {
+//                 if (winner[i].speed > max) {
 //                         max = winner[i].speed
 //                         index = i
-//                        }
+//                 }
 //         }
-        
+
 //         var fastes = winner[index].color + " " + winner[index].name + " is the fastes car!"
-//         return fastes; 
-        
+//         return fastes;
+
 // }
 // document.writeln(fastesCar(fastcars))
 // ---------------------------------------------------------
@@ -455,28 +455,28 @@
 
 // const details = {
 //         name: 'adiv shenkor',
-//         alias :'kingpin',
-//         appeard : 1990,
-//         frinds : ['bigman', 'smallman'],
-//         vilan : { mainVilan:'bob'}
+//         alias: 'kingpin',
+//         appeard: 1990,
+//         frinds: ['bigman', 'smallman'],
+//         vilan: { mainVilan: 'bob' }
 // }
 
 // email.adiv = 'adiv@gmail.com';
 // let name = 'or';
 // email[name] = `$[name]@hotmail.com`;
-// console.log (email)
+// console.log(email)
 
 // const person = {
-//        age:10 ,
-//        id: 23,
-//        name: '',
-//        address: '',
-//        color:'',
-//        street:'',
-//        game:'',
-//        dog:'',
-//        tvshow:'',
-//        student:'',
+//         age: 10,
+//         id: 23,
+//         name: '',
+//         address: '',
+//         color: '',
+//         street: '',
+//         game: '',
+//         dog: '',
+//         tvshow: '',
+//         student: '',
 // }
 
 // person.age = 30
@@ -491,194 +491,89 @@
 // person.tvshow = 'homland'
 // person.student = 'codein'
 
-// for(var key of Object.keys(person)) {
+// for (var key of Object.keys(person)) {
 //         var value = person[key];
 //         document.writeln(value)
 // }
-// console.log (person)
+// console.log(person)
 // ---------------------------------------------------------
 
 
 
 // var user = {
-// name : '',
-// lastName : '',
-// age : 0
+//         name: '',
+//         lastName: '',
+//         age: 0
 // }
 
 
-    
-// for(var key of Object.keys(user)) {
-//         user [key] = prompt (`please enter your ${key}`)
+
+// for (var key of Object.keys(user)) {
+//         user[key] = prompt(`please enter your ${key}`)
 // }
 
-// document.writeln (Date())            
-// document.writeln (`<br/> Hello There ${user.name} ` + ` ${user.lastName}`);
+// document.writeln(Date())
+// document.writeln(`<br/> Hello There ${user.name} ` + ` ${user.lastName}`);
 // -------------------------------------------------------
 
+//         tic tac toe game--------------------------------
+
+//                 function startGame() {
+//                         document.turn = "X";
+//                         setMessage(document.turn + " - gets to start.");
+//                 }
+// function setMessage(msg) {
+//         document.getElementById("message").innerText = msg;
+// }
+
+// function nextMove(square) {
+//         if (square.innerText == "") {
+//                 square.innerText = document.turn;
+//                 switchTurn();
+//         }
+//         else {
+//                 setMessage("that square is allready usde!")
+//         }
+
+// }
+
+// function switchTurn() {
+//         if (document.turn == "X") {
+//                 document.turn = "O";
+//         }
+//         else {
+//                 document.turn = "X";
+//         }
+//         setMessage("it's " + document.turn + "'s turn!")
+// }
+
+// function checkRow(a, b, c, move) {
+//         var result = false;
+// }
+// -------------------------------------------------------
+
+var mainDiv = document.getElementById("someId")
+var imgClass = document.getElementsByClassName("imgid")
+
+mainDiv.innerHTML = "<h1>Hello World</h1> <p>hello agine</p> <div>hello there</div> <br/> <div>hello mamadosako</div>"
+imgClass[0].innerHTML = "<div>one pice</div>"
+console.log(imgClass);
+// -----------------------------------------------
+
+var outerDiv = document.getElementById("outerId")
+
+outerDiv.innerHTML += '<div id = innerId"><h1>nice and better</h1></div>'
+
+var innerDiv = document.getElementById("innerId")
+ 
+innerDiv.innerHTML += '<h1>I AM THE INNER ID</h1>'
 
 
-let human = "X";
-let humanWins = 0;
-let computer = "O";
-let computerWins = 0;
-let turn = human;
-function nextMove(button) {
-    setMove(button);
-    if (checkForWin() == 1) {
-        humanWins++;
-        alert("Cestitam Pobjedili ste...");
-        document.getElementById("human").innerHTML = humanWins;
-        resetGame();
-        return;
-    } else if (checkForWin() == 2) {
-        computerWins++;
-        alert("Zao nam je izgubili ste...");
-        document.getElementById("computer").innerHTML = computerWins;
-        resetGame();
-        return;
-    } else if (checkForWin() == 3) {
-        alert("Nerijesno");
-        resetGame();
-        return;
-    }
-    switchTurn();
-    computerTurn();
-    if (checkForWin() == 1) {
-        humanWins++;
-        alert("Cestitam Pobjedili ste...");
-        document.getElementById("human").innerHTML = humanWins;
-        resetGame();
-        return;
-    } else if (checkForWin() == 2) {
-        alert("Zao nam je izgubili ste...");
-        computerWins++;
-        document.getElementById("computer").innerHTML = computerWins;
-        resetGame();
-        return;
-    } else if (checkForWin() == 3) {
-        alert("Nerijesno");
-        resetGame();
-        return;
-    }
-    switchTurn();
-}
-
-function switchFirstTurn() {
-    if (human == "X") {
-        human = "O";
-        computer = "X";
-    } else {
-        human = "X";
-        computer = "O";
-    }
-}
-
-function switchTurn() {
-    if (turn == human) {
-        turn = computer;
-    } else {
-        turn = human;
-    }
-}
-
-/**
- * 
- * @param {Button} button 
- * Smjesta onaj znak koji je igran u button i radi disable tog buttona da se na njega ne bi moglo ponovo kliknuti
- */
-function setMove(button) {
-    button.value = turn;
-    button.innerHTML = turn;
-    button.disabled = true;
-}
-/**
- *  Funkcija koja radi simulaciju igranja kompjutera
- *  
- */
-function computerTurn() {
-    let panel = document.getElementById("panel").getElementsByTagName("button");
-    for (let i = 0; i < panel.length; i++) {
-        if (panel[i].value == "") {
-            panel[i].value = computer;
-            if (checkForWin()) {
-                setMove(panel[i]);
-                return;
-            }
-            panel[i].value = "";
-        }
-    }
-    for (let i = 0; i < panel.length; i++) {
-        if (panel[i].value == "") {
-            panel[i].value = human;
-            if (checkForWin()) {
-                setMove(panel[i]);
-                return;
-            }
-            panel[i].value = "";
-        }
-    }
-    let move;
-    do {
-        move = parseInt(Math.random() * 10 - 1);
-    } while (panel[move].value != "");
-    setMove(panel[move]);
-}
-
-/**
- *  Vraca 0 ako igra je jos uvijek u tijeku tj. nije zavrsena
- *  Vraca 1 ako je kraj igre i pobjednik je Igrac 1
- *  Vraca 2 ako je kraj igre i pobjednik je Igrac 2 (u nasem slucaju computer posto se ne moze multiplayer)
- *  Vraca 3 ako je kraj igre a rezultat je nerjesen
- */
-function checkForWin() {
-    let panel = document.getElementById("panel").getElementsByTagName("button");
-    let matrix = [];
-    let counter = 0;
-    let winner = 3;
-    for (let i = 0; i < 3; i++) {
-        matrix[i] = [];
-        for (let j = 0; j < 3; j++) {
-            matrix[i][j] = panel[counter++].value;
-            if (matrix[i][j] == "")
-                winner = 0;
-        }
-    }
-    for (let i = 0; i < 3; i++) {
-        if ((matrix[i][0] == human && matrix[i][1] == human && matrix[i][2] == human) || (matrix[0][i] == human && matrix[1][i] == human && matrix[2][i] == human)) {
-            winner = 1;
-        }
-        if ((matrix[i][0] == computer && matrix[i][1] == computer && matrix[i][2] == computer) || (matrix[0][i] == computer && matrix[1][i] == computer && matrix[2][i] == computer)) {
-            winner = 2;
-        }
-    }
-    if ((matrix[0][0] == human && matrix[1][1] == human && matrix[2][2] == human) || (matrix[0][2] == human && matrix[1][1] == human && matrix[2][0] == human))
-        winner = 1;
-    if ((matrix[0][0] == computer && matrix[1][1] == computer && matrix[2][2] == computer) || (matrix[0][2] == computer && matrix[1][1] == computer && matrix[2][0] == computer))
-        winner = 2;
-
-    return winner;
-}
-
-function resetGame() {
-    var buttons = document.getElementById("panel").getElementsByTagName("button");
-    for (let i = 0; i < buttons.length; i++) {
-        buttons[i].disabled = true;
-    }
-    for (let i = 0; i < buttons.length; i++) {
-        buttons[i].disabled = false;
-        buttons[i].value = "";
-        buttons[i].innerHTML = "";
-    }
-    switchFirstTurn();
-    turn = "X";
-    if (computer == "X") {
-        computerTurn();
-        switchTurn();
-    }
 }
 
 
-  
 
-
+// 1. ליצור אלמנט ראשי עם ID
+// 2. בתוכו, ליצור אלמנטים עם ID
+// 3. ולתת להם טקסט
+// 4. ליצור את האלמנטים אחד בתוך השני
