@@ -5,13 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            padding: 20px; 
+            height: 20px; 
+            width: 20px; 
+            margin: 20px;
+        }
+        td{
+          border:1px solid black;
+          text-align: center;
+          padding: 5px;
+          height: 5px;
+          width: 5px;
+          margin: 20px;
+        }
+        tr:nth-child(even){
+            background-color: lightblue;
+        }
+        td:nth-child(even){
+            background-color: rgb(214, 173, 230);
+            
+            
+            
+        }
+
+        </style>
 </head>
 
 <body>
-    <div class="imgid"></div>
-    <div id="someId"></div>
-    <div id="outerId"></div>
+    <div>
+        <input type="text" id="idInput">
+        <button id="Idbutton" onclick="clickEvent()">click</button>
+    </div>
+
+
+    <div></div>
     
+
+    
+    <!-- <div class="imgid"></div>
+    <div id="someId"></div>
+    <div id="outerId"></div> -->
+
+    
+    <!-- <input type="text" id="idInput"> 
+    <button id="Idbutton" onclick="clickEvent()">click</button>
+    <div id="mainId"></div> -->
+<!-- <table id="tbody">
+    <tbody class="body">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>4</td>
+            </tr>
+    </tbody>
+</table> -->
+   
+<!-- <div>
+   <p>hello</p>
+   <p>hello world</p>
+   <p>hello world agin</p>
+   <h1>what'up</h1>
+   <h3>what'up bitcheeess</h3>
+</div>
+
+<script type="text/javascript">
+let similer = document.getElementsByTagName("p");
+for(i=0; i<similer.length; i++){
+    similer[i].style.color = "blue";
+}
+
+console.log(similer);
+</script> -->
 
     <script src="syntax.js"></script>
 

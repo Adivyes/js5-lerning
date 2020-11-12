@@ -552,24 +552,24 @@
 // }
 // -------------------------------------------------------
 
-var mainDiv = document.getElementById("someId")
-var imgClass = document.getElementsByClassName("imgid")
+// var mainDiv = document.getElementById("someId")
+// var imgClass = document.getElementsByClassName("imgid")
 
-mainDiv.innerHTML = "<h1>Hello World</h1> <p>hello agine</p> <div>hello there</div> <br/> <div>hello mamadosako</div>"
-imgClass[0].innerHTML = "<div>one pice</div>"
-console.log(imgClass);
-// -----------------------------------------------
+// mainDiv.innerHTML = "<h1>Hello World</h1> <p>hello agine</p> <div>hello there</div> <br/> <div>hello mamadosako</div>"
+// imgClass[0].innerHTML = "<div>one pice</div>"
+// console.log(imgClass);
+// // -----------------------------------------------
 
-var outerDiv = document.getElementById("outerId")
+// var outerDiv = document.getElementById("outerId")
 
-outerDiv.innerHTML += '<div id = innerId"><h1>nice and better</h1></div>'
+// outerDiv.innerHTML += '<div id = innerId"><h1>nice and better</h1></div>'
 
-var innerDiv = document.getElementById("innerId")
+// var innerDiv = document.getElementById("innerId")
  
-innerDiv.innerHTML += '<h1>I AM THE INNER ID</h1>'
+// innerDiv.innerHTML += '<h1>I AM THE INNER ID</h1>'
 
 
-}
+
 
 
 
@@ -577,3 +577,118 @@ innerDiv.innerHTML += '<h1>I AM THE INNER ID</h1>'
 // 2. בתוכו, ליצור אלמנטים עם ID
 // 3. ולתת להם טקסט
 // 4. ליצור את האלמנטים אחד בתוך השני
+
+
+
+// var inputElement = document.getElementById("inputId");
+// var mainDiv = document.getElementById("someIdName");
+// var inputValue;
+
+// function clickEvent() {
+//     inputValue = inputElement.value;
+//     console.log(inputValue);
+//     createList()
+//     listStyle()
+// }
+// function createList() {
+//     mainDiv.innerHTML += '<ol id="olElement">list : </ol>';
+//     var listElement = document.getElementById("olElement");
+//     for (let index = 1; index <= inputValue; index++) {
+//         listElement.innerHTML +=
+//             `<li id="liElemNo${index}">
+//         <img class="liElemClass" src="./${index}.jpg"/>            
+//     </li>`;
+//     }
+// }
+// function listStyle() {
+//     var liElements = document.getElementsByClassName("liElemClass");
+//     for (let i = 0; i < liElements.length; i++) {
+//         liElements[i].style = "height: 150px;";
+//     }
+// }
+// ------------------------------------------------------------------------
+
+
+
+
+
+
+
+// let inputElement = document.getElementById("idInput");
+// let mainDiv = document.getElementById("mainId");
+
+
+// mainDiv.innerHTML += '<ol id=list ><h1>try</h1></ol>';
+// mainDiv.style.color="red";
+
+// function clickEvent(){ 
+// let lilist = document.getElementById("list"); 
+// let inputnumber = inputElement.value;     
+// for(let i=1; i<=inputnumber; i++){
+// lilist.innerHTML += `<li><img src='${i}.jpg' class='listyle'></li>`
+
+// }
+// liststyle();
+// }
+
+
+// function liststyle(){
+// let classStyle = document.getElementsByClassName('listyle');
+// for (let i = 0; i < classStyle.length; i++) {
+//         classStyle[i].style = "width: 200px; height: 200px";
+        
+// }
+// }
+// -----------------------------------------------------------------------
+
+// let res = ""
+// for (let i=1; i<11; i++){
+//         res += '<tr>';
+//         for(let j=1; j<11; j++){
+//                 res += `<td>${i * j}</td>`
+//         }
+//   res += '</tr>';
+// }
+// console.log(res);
+// let tablebody = document.getElementById("tbody");
+// tablebody.innerHTML = res; 
+
+// ----------------------------------------------------------------------
+
+// let twoDiv = document.getElementsByTagName("div")[1];
+// for ( i = 0; i < 5; i++) {
+//         twoDiv.innerHTML += `<h1> this is no# ${i+1}</h1>`       
+        
+// }
+// console.log(twoDiv);
+// twoDiv.firstChild.style.color = `blue`;
+
+// twoDiv.childNodes[4].innerHTML = `<p>zoro</p> <p>lophi</p> <p>namy</p> <p>osopa</p> <p>brook</p>`;
+// ----------------------------------------------------------------------------
+
+let firstDiv = document.getElementsByTagName("div")[0];
+let secondDiv = document.getElementsByTagName("div")[1];
+
+
+function clickEvent(){
+        secondDiv.innerHTML = '<div id = "innerId"><h1></h1></div><button id= "repCol" onclick="clickEvent2()">replace color</button><div style = "background-color: lightcoral" ></div> <div style = "background-color: lightgreen"></div> <div style = "background-color: lightseagreen"></div>'  
+        let innerDiv = document.getElementById("innerId")
+        let inPutText = document.getElementById("idInput").value  
+        innerDiv.style = `background-color : ${inPutText}; padding: 20px; height: 20px; width: 20px; margin: 20px;`
+                
+}
+
+function clickEvent2(){
+        let innerDiv = document.getElementById("innerId")
+        innerDiv.style.backgroundColor = 'yellow'
+          let threeDivs =  document.getElementById("threediv")
+          threeDivs
+}
+
+
+
+ 
+
+
+// .style.color = 'blue'
+
