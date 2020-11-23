@@ -666,24 +666,24 @@
 // twoDiv.childNodes[4].innerHTML = `<p>zoro</p> <p>lophi</p> <p>namy</p> <p>osopa</p> <p>brook</p>`;
 // ----------------------------------------------------------------------------
 
-let firstDiv = document.getElementsByTagName("div")[0];
-let secondDiv = document.getElementsByTagName("div")[1];
+// let firstDiv = document.getElementsByTagName("div")[0];
+// let secondDiv = document.getElementsByTagName("div")[1];
 
 
-function clickEvent(){
-        secondDiv.innerHTML = '<div id = "innerId"><h1></h1></div><button id= "repCol" onclick="clickEvent2()">replace color</button><div style = "background-color: lightcoral" ></div> <div style = "background-color: lightgreen"></div> <div style = "background-color: lightseagreen"></div>'  
-        let innerDiv = document.getElementById("innerId")
-        let inPutText = document.getElementById("idInput").value  
-        innerDiv.style = `background-color : ${inPutText}; padding: 20px; height: 20px; width: 20px; margin: 20px;`
+// function clickEvent(){
+//         secondDiv.innerHTML = '<div id = "innerId"><h1></h1></div><button id= "repCol" onclick="clickEvent2()">replace color</button><div style = "background-color: lightcoral" ></div> <div style = "background-color: lightgreen"></div> <div style = "background-color: lightseagreen"></div>'  
+//         let innerDiv = document.getElementById("innerId")
+//         let inPutText = document.getElementById("idInput").value  
+//         innerDiv.style = `background-color : ${inPutText}; padding: 20px; height: 20px; width: 20px; margin: 20px;`
                 
-}
+// }
 
-function clickEvent2(){
-        let innerDiv = document.getElementById("innerId")
-        innerDiv.style.backgroundColor = 'yellow'
-          let threeDivs =  document.getElementById("threediv")
-          threeDivs
-}
+// function clickEvent2(){
+//         let innerDiv = document.getElementById("innerId")
+//         innerDiv.style.backgroundColor = 'yellow'
+//           let threeDivs =  document.getElementById("threediv")
+//           threeDivs
+// }
 
 
 
@@ -691,4 +691,30 @@ function clickEvent2(){
 
 
 // .style.color = 'blue'
+// ------------------------------------
+var pos = 0;
+        var moveInterval;
+        var toggle = false
+        var chaNgnameBtn = document.getElementById('moveBtn')
+        
+        function move() {
+            toggle = !toggle
+            toggle?moveFrame():sopbox();
+          
+        }   
+            
+        function moveFrame() {
+            moveInterval = setInterval(() =>{
+            pos++;
+            smallBox.style.left = pos + 'px';
+            },50);
+            chaNgnameBtn.innerHTML = "Stop";
+            }
 
+       function sopbox(){
+            clearInterval(moveInterval)
+            chaNgnameBtn.innerHTML = "Play"
+        }
+        
+
+        
