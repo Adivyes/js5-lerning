@@ -565,7 +565,7 @@
 // outerDiv.innerHTML += '<div id = innerId"><h1>nice and better</h1></div>'
 
 // var innerDiv = document.getElementById("innerId")
- 
+
 // innerDiv.innerHTML += '<h1>I AM THE INNER ID</h1>'
 
 
@@ -636,7 +636,7 @@
 // let classStyle = document.getElementsByClassName('listyle');
 // for (let i = 0; i < classStyle.length; i++) {
 //         classStyle[i].style = "width: 200px; height: 200px";
-        
+
 // }
 // }
 // -----------------------------------------------------------------------
@@ -658,37 +658,246 @@
 // let twoDiv = document.getElementsByTagName("div")[1];
 // for ( i = 0; i < 5; i++) {
 //         twoDiv.innerHTML += `<h1> this is no# ${i+1}</h1>`       
-        
+
 // }
 // console.log(twoDiv);
 // twoDiv.firstChild.style.color = `blue`;
 
 // twoDiv.childNodes[4].innerHTML = `<p>zoro</p> <p>lophi</p> <p>namy</p> <p>osopa</p> <p>brook</p>`;
 // ----------------------------------------------------------------------------
+// let madness = document.getElementById("Idbutton");
+// let secondDiv = document.getElementsByTagName("div")[1];
+// let inPutText = document.getElementsByTagName("input")[0];
+// let colorsChangeDiv;
+// let rancol;
+// function clickEvent() {
+//         secondDiv.innerHTML = '<div></div><button>replace color</button>'
+//         colorsChangeDiv = secondDiv.childNodes[0];
+//         colorsChangeDiv.style = `padding: 20px; height: 20px; width: 20px; margin: 20px; border:1px solid black;`
+//         for (let i = 0; i < 50; i++){
+//                 let rancol = Math.floor(Math.random() * 1000);
+//               document.getElementById("therdId").innerHTML += `<div onmouseover=changeColHov(${rancol})></div>`
+//               document.getElementById("therdId").childNodes[i].style=`background:#${rancol}; float: left; padding: 20px; height: 20px; width: 20px; margin: 20px; border:1px solid black; `
+//         }
+//         colorsChangeDiv.style.background =  inPutText.value   
+//         colorsChangeDiv.nextElementSibling.addEventListener("click", clickEvent2);
+// }                                                                           
 
-let firstDiv = document.getElementsByTagName("div")[0];
-let secondDiv = document.getElementsByTagName("div")[1];
+
+// function clickEvent2() {
+//         colorsChangeDiv.style.background = 'yellow';
+
+// }
 
 
-function clickEvent(){
-        secondDiv.innerHTML = '<div id = "innerId"><h1></h1></div><button id= "repCol" onclick="clickEvent2()">replace color</button><div style = "background-color: lightcoral" ></div> <div style = "background-color: lightgreen"></div> <div style = "background-color: lightseagreen"></div>'  
-        let innerDiv = document.getElementById("innerId")
-        let inPutText = document.getElementById("idInput").value  
-        innerDiv.style = `background-color : ${inPutText}; padding: 20px; height: 20px; width: 20px; margin: 20px;`
+// function changeColHov(x){
+//         colorsChangeDiv.style.background = '#' + x;
+// }
+
+
+
+// var setInter =  setInterval(() => `#${rancol}` (colorsChangeDiv),5000); 
+
+// function stop(){
+//         madness = clearInterval(setInter)
+// }
+// ------------------------------------------------------------------------
+
+
+
+// var slider_img = document.querySelector('.slider-img');
+// var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
+// var i = 0;
+// let imgruning = setInterval(next, 3000); 
+
+
+
+// function prev(){
+// 	if(i <= 0) i = images.length;	
+// 	i--;
+// 	return setImg();			 
+// }
+
+// function next(){
+// 	if(i >= images.length-1) i = -1;
+// 	i++;
+// 	return setImg();			 
+// }
+
+// function setImg(){
+// 	return slider_img.src = "images/"+images[i];
+
+// }
+
+// function stop() {
+//         clearInterval(imgruning)
+// }
+
+
+
+// ----------------------------------------------------------------------
+
+// let songs = [
+//         { name: "Hard day night", singer: "Beatless" },
+//         { name: "Help", singer: "Beatless" },
+//       ];
+
+
+//       //  arrayWithAllItems is expected to be an array,
+//       //  theSearchFunction is a function that accepts one item from arrayWithAllItems and returns a boolean
+
+//       function search(arrayWithAllItems, theSearchFunction) {
+//         for (let i = 0; i < arrayWithAllItems.length; i++) {
+//           let oneItemInArray = arrayWithAllItems[i];
+
+//           let isThisAValid = theSearchFunction(oneItemInArray);
+//           if (isThisAValid) {
+//             console.log("Found " + JSON.stringify(oneItemInArray));
+//           }
+//         }
+//       }
+
+//       function searchClicked() {
+//         search(songs, isThisIsTheSongWeLookFor);
+//       }
+
+//       function isThisIsTheSongWeLookFor(song , searchTerm) {
+//         let inputElement = document.getElementById("songInput");
+//         let searchTerm = inputElement.value;
+//         searchTerm = searchTerm.trim().toLowerCase();
+
+//         let fullSinger = song.singer.toLowerCase();
+//         let fullName = song.name.toLowerCase();
+
+//         let isFoundSinger = fullSinger.indexOf(searchTerm) != -1;
+//         let isFoundName = fullName.indexOf(searchTerm) != -1;
+
+//         let isFound = isFoundSinger || isFoundName;
+//         return isFound;
+//       }
+
+// return isFoundSinger || isFoundName;
+
+//     if (isFoundSinger == true && isFoundSinger == true)
+//         isFound = true;
+//     else if (isFoundSinger == true && isFoundSinger == false)
+//         isFound = true;
+//     else if (isFoundSinger == false && isFoundSinger == true)
+//         isFound = true;
+//     else if (isFoundSinger == false && is
+//       ---------------------------------------------------------------
+
+// window.onload = () => {}
+// function changeToUpperCase() {
+//         let inputValue = inputFunname.value;
+//         inputFunname.value = inputFunname.value.toUpperCase();
+// }
+
+// ------------------------------------------------------------
+
+// var firstPassword = document.getElementById('password');
+// var againPassword = document.getElementById('passwordAgain');
+// var sumbitBtn = document.getElementById('btnSubmit');
+// var photoup = document.getElementById('photo');
+// var checkname = document.getElementById('nicename');
+// var checkpass = document.getElementById('passwordspan');
+// var lastName = document.getElementById('nicelastname');
+
+
+// window.onload = () => {
+//         checkname.addEventListener("change", checkingNames);
+//         lastName.addEventListener("change", checkingLastName);
+//         againPassword.addEventListener('input', chekaPssword);
+// }
+
+
+// function checkingNames() {
+//         if (checkname.value.toLowerCase() != 'adiv') {
+//                 document.getElementById('namespan').innerHTML = "this name is not good";
+
+//                 return false;
+
+//         }
+//         document.getElementById('namespan').innerHTML = "";
+//         return true;
+// }
+
+
+// function chekaPssword() {
+//         if (firstPassword.value == againPassword.value) {
+//                 checkpass.innerHTML = ""
+//                 return true;
+//         }
+//         checkpass.innerHTML = "this is a bad password"
+//         return false;
+// }
+
+
+// function checkingLastName() {
+//         if (lastName.value.toLowerCase() != 'shenkor') {
+//                 document.getElementById('lastnamespan').innerHTML = "this lastname is not good";
+
+//                 return false;
+
+//         }
+//         document.getElementById('lastnamespan').innerHTML = "enter your last-name:";
+//         return true;
+// }
+
+
+// photoup.addEventListener('change', function () {
+
+//         if (file.size > 3000000) {
+//                 alert(`${file.name} is too big`)
+//         }
+
+// });
+// -------------------------------------------------------------
+
+var mainDiv = document.getElementById('mainDiv');
+mainDiv.innerHTML = "<form id=form></form>"
+var formId = document.getElementById('form');
+
+window.onload = () => {
+let generArray = ['Name', 'Lastname', 'Email'];
+let adivArray = ['adiv', 'shenkor', 'adivshenkor@hotmail.com']
+createInputs(generArray);
+addEvent(generArray);
+}
+
+function comperArray(){
+
+}
+
+function createInputs(inputChange){
+        
+        for (let i = 0; i < inputChange.length; i++) {
+                formId.innerHTML +=  `<br><div id=${inputChange[i]}Div><label id=${inputChange[i]}Label>${inputChange[i]}:</label></br><span style='display: none'>*</span><input id ='${inputChange[i]}Input' required type='text' name='${inputChange[i]}'><span id=${inputChange[i]}span></span></div></br>`  
                 
+        }
 }
 
-function clickEvent2(){
-        let innerDiv = document.getElementById("innerId")
-        innerDiv.style.backgroundColor = 'yellow'
-          let threeDivs =  document.getElementById("threediv")
-          threeDivs
+function checkNames(checking){
+if(document.getElementById(`NameInput`).value.toLowerCase() == 'adiv'){
+
+        document.getElementById(`NameInput`).style.background = 'green '
+        document.getElementById(`Namespan`).innerHTML = 'GOOD'
+        return true;
+}
+        document.getElementById(`NameInput`).style.background = 'red'
+        document.getElementById(`Namespan`).innerHTML = 'NOT GOOD'
+     return false;   
+
 }
 
 
 
- 
+function addEvent(idSerch){
+        for (let i = 0; i < idSerch.length; i++) {
+          document.getElementById(`${idSerch[i]}Input`).addEventListener('change',()=>{checkNames(idSerch[i])} )     
+                
+        }
 
+}
 
-// .style.color = 'blue'
 

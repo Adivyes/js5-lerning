@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body {
+        background-color: coral;
+
+    }
+
+    #continer {
+        display: grid;
+        width: 250px;
+        border: 2px solid black;
+        padding: 30px;
+        background-color: rgb(228, 228, 228);
+        border-radius: 10px;
+
+    }
+    input{
+        background-color: white;
+        width: 200px;
+        border: 0.5px solid black;
+        border-radius: 1px;
+    }
+
+    .btn {
+        border: none;
+        outline: none;
+        background: rgb(68, 68, 68);
+        padding: 5px 15px;
+        font-size: 20px;
+        color: #ddd;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+
+    .btn:hover {
+        background: #111;
+    }
+</style>
+
+<body>
+    <div id="continer">
+        <h2>Hello Dear User</h2>
+        <form onsubmit="return validation()">
+            
+             <label>Name:</label> 
+             <span id="namespan">Name:</span>
+            <input  type="text" name="pnicename" id="nicename" placeholder="enter name"><span id="namespan"></span><br><br>
+             
+            <label>Last Name:</label>
+            <span id="lastnamespan">Last Name:</span>
+            <input  type="text" name="lastname" id="nicelastname" placeholder="enter last-name"><br><br>
+            
+            <label>Email:</label>
+            <input type="email" name="email" id="email" placeholder="enter email"><br><br>
+            
+            <label for="photo">your photo:</label>       
+            <input  type="file" name="file" id="photo"><br><br>
+
+            <label>Phone:</label>
+            <input  type="tel" name="phone" id="phone" placeholder="phone:000-000-0000"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+            <label>Password:</label>
+            <input  type="password" name="password" id="password" placeholder="enter password"><br><br>
+            <span id="passwordspan"></span>
+            <input  type="password" name="funname" id="passwordAgain" placeholder="enter password Again">
+            
+            <br><br> <button class="btn" type="submit" id="btnSubmit">send</button>
+            <button class="btn" type="reset">reset</button>
+
+        </form>
+    </div> 
+
+
+
+
+    <script src="syntax.js"></script>
+</body>
+
+</html>
