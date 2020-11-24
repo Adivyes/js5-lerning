@@ -761,14 +761,20 @@
 //         search(songs, isThisIsTheSongWeLookFor);
 //       }
 
+<<<<<<< HEAD
 //       function isThisIsTheSongWeLookFor(song , searchTerm) {
 //         let inputElement = document.getElementById("songInput");
 //         let searchTerm = inputElement.value;
 //         searchTerm = searchTerm.trim().toLowerCase();
+=======
+// let firstDiv = document.getElementsByTagName("div")[0];
+// let secondDiv = document.getElementsByTagName("div")[1];
+>>>>>>> 9316f36af36c4b5a7eec4cbaa6d4c57d46d79f38
 
 //         let fullSinger = song.singer.toLowerCase();
 //         let fullName = song.name.toLowerCase();
 
+<<<<<<< HEAD
 //         let isFoundSinger = fullSinger.indexOf(searchTerm) != -1;
 //         let isFoundName = fullName.indexOf(searchTerm) != -1;
 
@@ -887,6 +893,22 @@ if(document.getElementById(`NameInput`).value.toLowerCase() == 'adiv'){
         document.getElementById(`NameInput`).style.background = 'red'
         document.getElementById(`Namespan`).innerHTML = 'NOT GOOD'
      return false;   
+=======
+// function clickEvent(){
+//         secondDiv.innerHTML = '<div id = "innerId"><h1></h1></div><button id= "repCol" onclick="clickEvent2()">replace color</button><div style = "background-color: lightcoral" ></div> <div style = "background-color: lightgreen"></div> <div style = "background-color: lightseagreen"></div>'  
+//         let innerDiv = document.getElementById("innerId")
+//         let inPutText = document.getElementById("idInput").value  
+//         innerDiv.style = `background-color : ${inPutText}; padding: 20px; height: 20px; width: 20px; margin: 20px;`
+                
+// }
+
+// function clickEvent2(){
+//         let innerDiv = document.getElementById("innerId")
+//         innerDiv.style.backgroundColor = 'yellow'
+//           let threeDivs =  document.getElementById("threediv")
+//           threeDivs
+// }
+>>>>>>> 9316f36af36c4b5a7eec4cbaa6d4c57d46d79f38
 
 }
 
@@ -900,4 +922,34 @@ function addEvent(idSerch){
 
 }
 
+<<<<<<< HEAD
+=======
+// .style.color = 'blue'
+// ------------------------------------
+var pos = 0;
+        var moveInterval;
+        var toggle = false
+        var chaNgnameBtn = document.getElementById('moveBtn')
+        
+        function move() {
+            toggle = !toggle
+            toggle?moveFrame():sopbox();
+          
+        }   
+            
+        function moveFrame() {
+            moveInterval = setInterval(() =>{
+            pos++;
+            smallBox.style.left = pos + 'px';
+            },50);
+            chaNgnameBtn.innerHTML = "Stop";
+            }
 
+       function sopbox(){
+            clearInterval(moveInterval)
+            chaNgnameBtn.innerHTML = "Play"
+        }
+        
+>>>>>>> 9316f36af36c4b5a7eec4cbaa6d4c57d46d79f38
+
+        
