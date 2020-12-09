@@ -907,43 +907,43 @@ if(document.getElementById(`NameInput`).value.toLowerCase() == 'adiv'){
 //           threeDivs
 // }
 
-}
+// }
 
 
 
-function addEvent(idSerch){
-        for (let i = 0; i < idSerch.length; i++) {
-          document.getElementById(`${idSerch[i]}Input`).addEventListener('change',()=>{checkNames(idSerch[i])} )     
+// function addEvent(idSerch){
+//         for (let i = 0; i < idSerch.length; i++) {
+//           document.getElementById(`${idSerch[i]}Input`).addEventListener('change',()=>{checkNames(idSerch[i])} )     
                 
-        }
+//         }
 
-}
+// }
 
 // .style.color = 'blue'
 // ------------------------------------
-var pos = 0;
-        var moveInterval;
-        var toggle = false
-        var chaNgnameBtn = document.getElementById('moveBtn')
+// var pos = 0;
+//         var moveInterval;
+//         var toggle = false
+//         var chaNgnameBtn = document.getElementById('moveBtn')
         
-        function move() {
-            toggle = !toggle
-            toggle?moveFrame():sopbox();
+//         function move() {
+//             toggle = !toggle
+//             toggle?moveFrame():sopbox();
           
-        }   
+//         }   
             
-        function moveFrame() {
-            moveInterval = setInterval(() =>{
-            pos++;
-            smallBox.style.left = pos + 'px';
-            },50);
-            chaNgnameBtn.innerHTML = "Stop";
-            }
+//         function moveFrame() {
+//             moveInterval = setInterval(() =>{
+//             pos++;
+//             smallBox.style.left = pos + 'px';
+//             },50);
+//             chaNgnameBtn.innerHTML = "Stop";
+//             }
 
-       function sopbox(){
-            clearInterval(moveInterval)
-            chaNgnameBtn.innerHTML = "Play"
-        }
+//        function sopbox(){
+//             clearInterval(moveInterval)
+//             chaNgnameBtn.innerHTML = "Play"
+//         }
         
 
         
