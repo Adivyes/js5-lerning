@@ -858,39 +858,39 @@
 // });
 // -------------------------------------------------------------
 
-var mainDiv = document.getElementById('mainDiv');
-mainDiv.innerHTML = "<form id=form></form>"
-var formId = document.getElementById('form');
+// var mainDiv = document.getElementById('mainDiv');
+// mainDiv.innerHTML = "<form id=form></form>"
+// var formId = document.getElementById('form');
 
-window.onload = () => {
-let generArray = ['Name', 'Lastname', 'Email'];
-let adivArray = ['adiv', 'shenkor', 'adivshenkor@hotmail.com']
-createInputs(generArray);
-addEvent(generArray);
-}
+// window.onload = () => {
+// let generArray = ['Name', 'Lastname', 'Email'];
+// let adivArray = ['adiv', 'shenkor', 'adivshenkor@hotmail.com']
+// createInputs(generArray);
+// addEvent(generArray);
+// }
 
-function comperArray(){
+// function comperArray(){
 
-}
+// }
 
-function createInputs(inputChange){
+// function createInputs(inputChange){
         
-        for (let i = 0; i < inputChange.length; i++) {
-                formId.innerHTML +=  `<br><div id=${inputChange[i]}Div><label id=${inputChange[i]}Label>${inputChange[i]}:</label></br><span style='display: none'>*</span><input id ='${inputChange[i]}Input' required type='text' name='${inputChange[i]}'><span id=${inputChange[i]}span></span></div></br>`  
+//         for (let i = 0; i < inputChange.length; i++) {
+//                 formId.innerHTML +=  `<br><div id=${inputChange[i]}Div><label id=${inputChange[i]}Label>${inputChange[i]}:</label></br><span style='display: none'>*</span><input id ='${inputChange[i]}Input' required type='text' name='${inputChange[i]}'><span id=${inputChange[i]}span></span></div></br>`  
                 
-        }
-}
+//         }
+// }
 
-function checkNames(checking){
-if(document.getElementById(`NameInput`).value.toLowerCase() == 'adiv'){
+// function checkNames(checking){
+// if(document.getElementById(`NameInput`).value.toLowerCase() == 'adiv'){
 
-        document.getElementById(`NameInput`).style.background = 'green '
-        document.getElementById(`Namespan`).innerHTML = 'GOOD'
-        return true;
-}
-        document.getElementById(`NameInput`).style.background = 'red'
-        document.getElementById(`Namespan`).innerHTML = 'NOT GOOD'
-     return false;   
+//         document.getElementById(`NameInput`).style.background = 'green '
+//         document.getElementById(`Namespan`).innerHTML = 'GOOD'
+//         return true;
+// }
+//         document.getElementById(`NameInput`).style.background = 'red'
+//         document.getElementById(`Namespan`).innerHTML = 'NOT GOOD'
+//      return false;   
 
 // function clickEvent(){
 //         secondDiv.innerHTML = '<div id = "innerId"><h1></h1></div><button id= "repCol" onclick="clickEvent2()">replace color</button><div style = "background-color: lightcoral" ></div> <div style = "background-color: lightgreen"></div> <div style = "background-color: lightseagreen"></div>'  

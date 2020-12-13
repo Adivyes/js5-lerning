@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">Enter any string:</label>
+    <input type="text" id="name">
+    <button onclick="smallLetter()">give me small string</button>
+    <button onclick="bigLetter()">give me big string</button>
+    <h2 id="stringValue"></h2>
+    <script>
+        function smallLetter(){
+            stringValue.innerHTML = ""
+            let stringFromUser = document.querySelector('#name').value.split()
+            for (let i = 0; i < stringFromUser.length; i++) {
+                stringFromUser[i] = stringFromUser[i].toLowerCase()
+                stringValue.innerHTML += stringFromUser[i]
+            }
+            console.log(stringFromUser);
+        }
+        function bigLetter(){
+            stringValue.innerHTML = ""
+            let stringFromUser = document.querySelector('#name').value.split()
+            for (let i = 0; i < stringFromUser.length; i++) {
+                stringFromUser[i] = stringFromUser[i].toUpperCase()
+                stringValue.innerHTML += stringFromUser[i]
+            }
+            console.log(stringFromUser);
+        }
+    </script>
+</body>
+</html>
